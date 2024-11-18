@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		500B96CD2CDED1780034E48F /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 500B96CC2CDED1780034E48F /* CodeScanner */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		500B94A12CD2744D0034E48F /* CarolinaPeppersProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarolinaPeppersProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				500B96CD2CDED1780034E48F /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,8 +69,6 @@
 				500B94A32CD2744D0034E48F /* CarolinaPeppersProject */,
 			);
 			name = CarolinaPeppersProject;
-			packageProductDependencies = (
-			);
 			productName = CarolinaPeppersProject;
 			productReference = 500B94A12CD2744D0034E48F /* CarolinaPeppersProject.app */;
 			productType = "com.apple.product-type.application";
@@ -94,6 +97,9 @@
 			);
 			mainGroup = 500B94982CD2744D0034E48F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				500B96CB2CDED1780034E48F /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 500B94A22CD2744D0034E48F /* Products */;
 			projectDirPath = "";
@@ -252,8 +258,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CarolinaPeppersProject/Preview Content\"";
+				DEVELOPMENT_TEAM = 987FD96XAS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Dammi la tua camera grz";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -280,8 +288,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CarolinaPeppersProject/Preview Content\"";
+				DEVELOPMENT_TEAM = 987FD96XAS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Dammi la tua camera grz";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -322,6 +332,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		500B96CB2CDED1780034E48F /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		500B96CC2CDED1780034E48F /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 500B96CB2CDED1780034E48F /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 500B94992CD2744D0034E48F /* Project object */;
 }

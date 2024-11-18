@@ -1,5 +1,5 @@
 //
-//  sfondoanimato.swift
+//  BackgroundImage.swift
 //  CarolinaPeppersProject
 //
 //  Created by Emanuele Bazzicalupo on 13/11/24.
@@ -34,6 +34,6 @@ struct WaterWave: Shape {
             
             path.addLine(to: CGPoint(x: 1000, y: rect.height))
             path.addLine(to: CGPoint(x: 0, y: rect.height))
-       }
+        }
     }
 }
