@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- App URL Scheme -->
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLName</key>
+            <string>com.yourcompany.yourapp</string>
+        </dict>
+    </array>
+
+    <!-- Camera Permission -->
+    <key>NSCameraUsageDescription</key>
+    <string>We need access to your camera to scan plastic items.</string>
+
+    <!-- Photo Library Permission (Optional) -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We need access to your photo library to select images for scanning.</string>
+
+    <!-- Microphone Permission (Optional, for audio-related features) -->
+    <key>NSMicrophoneUsageDescription</key>
+    <string>We need access to your microphone for audio recording.</string>
+</dict>
+</plist>
