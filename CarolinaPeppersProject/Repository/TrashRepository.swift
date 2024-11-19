@@ -11,14 +11,14 @@ class TrashRepository: ObservableObject, Observable {
     
     static var allTrash: [TrashModel] {
         return [
-            TrashModel(name: "Bag", image: "Bag", position: TrashRepository.getRandomPosition()),
-            TrashModel(name: "Bagflip", image: "Bagflip", position: TrashRepository.getRandomPosition()),
-            TrashModel(name: "Bottle", image: "Bottle", position: TrashRepository.getRandomPosition()),
-            TrashModel(name: "Bottleflip", image: "Bottleflip", position: TrashRepository.getRandomPosition()),
-            TrashModel(name: "Journal", image: "Journal", position: TrashRepository.getRandomPosition()),
-            TrashModel(name: "Journalflip", image: "Journalflip", position: TrashRepository.getRandomPosition()),
-            TrashModel(name: "Cigarette", image: "Cigarette", position: TrashRepository.getRandomPosition()),
-            TrashModel(name: "Cigaretteflip", image: "Cigaretteflip", position: TrashRepository.getRandomPosition())
+            TrashModel(name: "bag", image: "bag", position: TrashRepository.getRandomPosition()),
+            TrashModel(name: "bagflip", image: "bagflip", position: TrashRepository.getRandomPosition()),
+            TrashModel(name: "bottle", image: "bottle", position: TrashRepository.getRandomPosition()),
+            TrashModel(name: "bottleflip", image: "bottleflip", position: TrashRepository.getRandomPosition()),
+            TrashModel(name: "journal", image: "journal", position: TrashRepository.getRandomPosition()),
+            TrashModel(name: "journalflip", image: "journalflip", position: TrashRepository.getRandomPosition()),
+            TrashModel(name: "cigarette", image: "cigarette", position: TrashRepository.getRandomPosition()),
+            TrashModel(name: "cigaretteflip", image: "cigaretteflip", position: TrashRepository.getRandomPosition())
         ]
     }
     

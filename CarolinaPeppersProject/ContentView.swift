@@ -82,22 +82,6 @@ struct ContentView: View {
                             .frame(width: 150, height: 150)
                             .position(x: trash.position.x, y: trash.position.y)
                     }
-                    
-//                    if repository.bin.count == 8 {
-//                        VStack {
-//                            Text("New Trash Appeared!")
-//                                .bold()
-//                        }
-//                        .padding()
-//                        .background(
-//                            RoundedRectangle(
-//                                cornerRadius: 20,
-//                                style: .continuous
-//                            )
-//                            .stroke(.black, lineWidth: 2)
-//                            .fill(.white.shadow(.drop(color: .black, radius: 5)))
-//                        )
-//                    }
                 }
                     .ignoresSafeArea()
             )

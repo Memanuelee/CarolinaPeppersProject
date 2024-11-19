@@ -16,7 +16,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "500B94A02CD2744D0034E48F"
-               BuildableName = "CarolinaPeppersProject.app"
+               BuildableName = "SeaShell.app"
                BlueprintName = "CarolinaPeppersProject"
                ReferencedContainer = "container:CarolinaPeppersProject.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "500B94A02CD2744D0034E48F"
-            BuildableName = "CarolinaPeppersProject.app"
+            BuildableName = "SeaShell.app"
             BlueprintName = "CarolinaPeppersProject"
             ReferencedContainer = "container:CarolinaPeppersProject.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "500B94A02CD2744D0034E48F"
-            BuildableName = "CarolinaPeppersProject.app"
+            BuildableName = "SeaShell.app"
             BlueprintName = "CarolinaPeppersProject"
             ReferencedContainer = "container:CarolinaPeppersProject.xcodeproj">
          </BuildableReference>

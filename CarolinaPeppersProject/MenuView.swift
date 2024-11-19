@@ -13,7 +13,7 @@ struct MenuView: View {
     @Environment(\.dismiss) var dismiss
     
     @State private var amountOfTrashToRemove: Int = 1
-    @State private var selectedTrash: String = "Bag"
+    @State private var selectedTrash: String = "bag"
     @State private var selectedImpact: Int = 2
     
     @State var progress: CGFloat = 0.5
@@ -21,7 +21,7 @@ struct MenuView: View {
     
     let range: ClosedRange<Int> = 1...8
     let step: Int = 1
-    let assetsNames = ["Bag", "Bottle", "Journal", "Cigarette"]
+    let assetsNames = ["bag", "bottle", "journal", "cigarette"]
     let assetsImpact = [2, 4, 3, 1]
     
     var body: some View {
@@ -62,7 +62,7 @@ struct MenuView: View {
                 Text("\(selectedTrash)")
                     .fontWeight(.bold)
                 
-                Text("Environmental Impact: \(selectedImpact)")
+                Text("Co2 Saved: \(selectedImpact)")
                 
                 Divider()
                 
@@ -89,13 +89,13 @@ struct MenuView: View {
                 let valueOfTrash: Int
                 
                 switch selectedTrash {
-                case "Bag":
+                case "bag":
                     valueOfTrash = 2
-                case "Bottle":
+                case "bottle":
                     valueOfTrash = 4
-                case "Journal":
+                case "journal":
                     valueOfTrash = 3
-                case "Cigarette":
+                case "cigarette":
                     valueOfTrash = 1
                 default:
                     valueOfTrash = 1

@@ -103,7 +103,7 @@ struct MyBadgesView: View {
                 .fontWeight(.bold)
                 .foregroundColor(.black)
             
-            Text("Total Environmental Impact: \(repository.awardedPoints)")
+            Text("Total Co2 Saved: \(repository.awardedPoints)")
                 .font(.title2)
                 .foregroundColor(.black)
                         

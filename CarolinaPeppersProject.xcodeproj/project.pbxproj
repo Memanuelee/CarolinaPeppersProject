@@ -11,7 +11,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		500B94A12CD2744D0034E48F /* CarolinaPeppersProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarolinaPeppersProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		500B94A12CD2744D0034E48F /* SeaShell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeaShell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -45,7 +45,7 @@
 		500B94A22CD2744D0034E48F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				500B94A12CD2744D0034E48F /* CarolinaPeppersProject.app */,
+				500B94A12CD2744D0034E48F /* SeaShell.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,7 +70,7 @@
 			);
 			name = CarolinaPeppersProject;
 			productName = CarolinaPeppersProject;
-			productReference = 500B94A12CD2744D0034E48F /* CarolinaPeppersProject.app */;
+			productReference = 500B94A12CD2744D0034E48F /* SeaShell.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -273,7 +273,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = MemanueleGroup.CarolinaPeppersProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SeaShell;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,7 +303,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = MemanueleGroup.CarolinaPeppersProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SeaShell;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
